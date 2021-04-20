@@ -1,14 +1,14 @@
 [load_balancers]
-frontend 
+frontend.f0fa.example.opentlc.com
 
 [app_servers]
-app-01
-app-02
+app-01.f0fa.example.opentlc.com
+app-02.f0fa.example.opentlc.com
 
 [database_servers]
-appdb1
+appdb1.f0fa.example.opentlc.com
 
 [internal:children]
-load_balancers
-app_servers
-database_servers
+load_balancers.f0fa.example.opentlc.com
+app_servers.f0fa.example.opentlc.com
+database_servers.f0fa.example.opentlc.com
