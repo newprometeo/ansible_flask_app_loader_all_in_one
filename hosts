@@ -6,7 +6,7 @@ app-01.f0fa.example.opentlc.com
 app-02.f0fa.example.opentlc.com
 
 [database_servers]
-appdb1.f0fa.example.opentlc.com
+appdb1
 
 [internal:children]
 load_balancers
